@@ -52,6 +52,7 @@ class CustomCrew:
         crew = Crew(
             agents=[city_selection_agent, local_expert_agent, travel_concierge_agent],
             tasks=[identify_task, gather_task, plan_task],
+            max_rpm=29,
             verbose=True,
         )
 
